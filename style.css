@@ -1,0 +1,43 @@
+body {
+
+    user-select: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(13, 14, 13);
+    border-radius: 5px;
+    max-width: 450px;
+    font-family: "Calibri";
+    padding: 10px;
+}
+.item {
+    background-color: #303030;
+    color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.input {
+    min-height: 60px;
+    height: auto;
+    grid-column: 1/-1;
+    padding: 5px 20px;
+    font-size: 40px;
+    justify-content: flex-end;
+}
+.upper {
+    font-size: 20px;
+    margin-left: 3px;
+    margin-top: -20px;
+}
+.clean, .back, .percent, .divide, .mul, .sub, .add {
+color: rgb(230, 198, 14);
+}
+.equal {
+    background-color: rgb(150, 128, 6);
+}
